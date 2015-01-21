@@ -1,5 +1,5 @@
 Template.main.helpers({
   environment: function() {
-    return Meteor.isCordova ? "mobile" : "web");
+    return Meteor.isCordova ? "mobile" : "web";
   }
 });

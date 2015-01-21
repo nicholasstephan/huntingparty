@@ -1,0 +1,69 @@
+/* 
+Reset 
+*/
+
+* {
+  outline:none;
+  color:#464646;
+  font-weight: normal;
+}
+
+html, body {
+  width:100%;
+  height:100%;
+  padding:0;
+  margin:0;
+}
+
+
+/* 
+Paper
+*/
+
+.paper {
+  background-color:white;
+}
+
+.lv-1 {
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.lv-2 {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+/*
+Buttons
+*/
+
+
+button {
+  padding:0;
+  border:0;
+  margin:0;
+}
+
+button.floating {
+  display:block;
+  width:56px;
+  height:56px;
+  border-radius:50%;
+  .lv-1;
+}
+
+/* a quick hack to center glyphicons
+spans inside a floating button */
+button.floating.glyphicons {
+  padding:0;
+}
+button.floating.glyphicons:before {
+  left: 16px;
+  top: 15px;
+}
+
+
+
+
